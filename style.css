@@ -134,12 +134,11 @@ header nav span{
 }
 
 #leadbanner a{
-    background: #4eae06; /* Old browsers */
-    background: -moz-linear-gradient(top, #4eae06 0%, #4eae06 100%); /* FF3.6+ */
+    background: #4eae06; /* Old browsers */ /* FF3.6+ */
     background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4eae06), color-stop(100%,#4eae06)); /* Chrome,Safari4+ */
     background: -webkit-linear-gradient(top, #4eae06 0%,#4eae06 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #4eae06 0%,#4eae06 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #4eae06 0%,#4eae06 100%); /* IE10+ */
+    background: -o-linear-gradient(top, #4eae06 0%,#4eae06 100%); /* Opera 11.10+ */ /* IE10+ */
+    background: -webkit-gradient(linear, left top, left bottom, from(#4eae06),to(#4eae06));
     background: linear-gradient(to bottom, #4eae06 0%,#4eae06 100%); /* W3C */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4eae06', endColorstr='#4eae06',GradientType=0 ); /* IE6-9 */
     display: block;
@@ -153,7 +152,8 @@ header nav span{
     text-align: center;
     text-transform: uppercase;
     margin-left: 5px;
-    box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+    -webkit-box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
+            box-shadow: 1px 1px 6px rgba(0,0,0,0.4);
 }
 
 section{
